@@ -1,0 +1,12 @@
+torch
+numpy
+colorama
+onnx
+opencv-python<=3.4.15.55
+tqdm
+pillow
+matplotlib
+pycocotools
+pandas
+yacs
+loguru
