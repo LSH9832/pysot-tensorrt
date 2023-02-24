@@ -1,6 +1,6 @@
 # pysot-tensorrt
 
-## intro
+## Intro
 - we convert most of pysot network layers to tensorrt fp16 model to get speed up.
 - **mask** model is not supported now
 - here's the results on UAV123-car6 (4864 frames)
@@ -11,7 +11,7 @@
 | siamrpn_mobilev2_l234_dwxcorr | 80.59                       |  72.91                     |
 | siamrpn_r50_l234_dwxcorr      | bad precision(I don't know why) |  -                     |
 
-## setup
+## Setup
 
 ### warning: make sure torch2trt and TensorRT Development Toolkit(version>7.1.3.0) are all installed.
 
@@ -29,7 +29,7 @@ cd pysot-tensorrt
 pip install -r requirements
 ```
 
-### export to tensorrt
+## Export to tensorrt
 
 - download weights in origin repository [STVIR/pysot](https://github.com/STVIR/pysot) and move weights to **pysot/experiments/${RELATIVE DIR}**
 - then
@@ -46,7 +46,7 @@ python export.py --name siamrpn_alex_dwxcorr   # (str)   experience name
 ```
 all generated tensorrt engine files will be saved in **pysot/experiments/${RELATIVE DIR}/export**
 
-then test the FPS
+## Test FPS
 ```
 python test.py --trt --name siamrpn_alex_dwxcorr --source ${PATH TO YOUR VIDEO}
 
