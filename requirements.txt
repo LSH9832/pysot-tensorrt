@@ -1,7 +1,11 @@
 torch
+tensorrt
+torch2trt
 numpy
 colorama
 onnx
+onnxruntime
+onnxsim
 opencv-python<=3.4.15.55
 tqdm
 pillow
