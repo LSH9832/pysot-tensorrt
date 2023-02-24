@@ -1,7 +1,9 @@
 # pysot-tensorrt
-we convert most of pysot network layers to tensorrt fp16 model to get speed up.
 
-- result on UAV123-car6 (4864 frames)
+## intro
+- we convert most of pysot network layers to tensorrt fp16 model to get speed up.
+- **mask** model is not supported now
+- here's the results on UAV123-car6 (4864 frames)
 
 |             Name              | FPS<sup>RTX3060<br>trt fp16 | FPS<sup>RTX3060<br>pytorch |
 |:------------------------------|:---------------------------:|:--------------------------:|
