@@ -25,7 +25,7 @@ cd torch2trt
 python setup.py install
 ```
 then
-```
+```shell
 # setup
 git clone https://github.com/LSH9832/pysot-tensorrt.git
 cd pysot-tensorrt
