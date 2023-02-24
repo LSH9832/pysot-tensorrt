@@ -5,7 +5,7 @@
 - **mask** model is not supported now
 - here's the results on UAV123-car6 (4864 frames)
 
-|             Name              | FPS<sup>RTX3060<br>trt fp16 | FPS<sup>RTX3060<br>pytorch |
+|             Name              | FPS<sup>RTX3060<br>trt+pytorch fp16 | FPS<sup>RTX3060<br>pytorch |
 |:------------------------------|:---------------------------:|:--------------------------:|
 | siamrpn_alex_dwxcorr(_otb)    | 128.49                      |  78.54                     |
 | siamrpn_mobilev2_l234_dwxcorr | 80.59                       |  72.91                     |
